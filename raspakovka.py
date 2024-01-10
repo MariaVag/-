@@ -1,10 +1,20 @@
-def print_params():
-    a = 1
-    b = 'строка'
-    c = True
-    print (a, b, c)
+def print_params(a=0):
+    print(a)
+
+
 print_params()
 
+def print_params(b = 'строка'):
+    print(b)
+
+
+print_params()
+
+def print_params(c = True):
+    print(c)
+
+
+print_params()
 
 def print_params():
     a = 1
