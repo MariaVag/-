@@ -1,11 +1,8 @@
 
-def test(name):
-    print('privet' + name)
+def test(*args, **kwargs):
+    print(args, kwargs)
+test('lime', True, 1, 2, 3, [5, 6, 7], cat = 'Кот')
 
-
-names = [' Jo', 'Key']
-for nameis in names:
-    test(nameis)
 
 
 
